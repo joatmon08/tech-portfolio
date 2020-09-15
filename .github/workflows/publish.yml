@@ -23,6 +23,5 @@ jobs:
       run: |
         cd website/build/tech-portfolio
         touch .nojekyll
-    - name: Commit files
-      run: |
         GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} INPUT_DIRECTORY=$(pwd) publish.sh
+        
