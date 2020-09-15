@@ -20,9 +20,7 @@ jobs:
         yarn install
         yarn build
         touch .nojekyll
-    - name: push
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Push to gh-pages
       run: |
         cd website
-        GIT_USER=joatmon08 CURRENT_BRANCH=master npm run publish-gh-pages
+        GIT_USER=joatmon08 GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} CURRENT_BRANCH=master npm run publish-gh-pages
