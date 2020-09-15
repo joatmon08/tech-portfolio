@@ -28,4 +28,4 @@ jobs:
         cd website
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-        GIT_USER=joatmon08 GH_TOKEN=${{ secrets.GITHUB_TOKEN }} CURRENT_BRANCH=master npm run publish-gh-pages
+        echo "${{ secrets.GITHUB_TOKEN }}" | GIT_USER=joatmon08 CURRENT_BRANCH=master npm run publish-gh-pages --
