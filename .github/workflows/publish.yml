@@ -19,7 +19,7 @@ jobs:
         cd website
         yarn install
         yarn build
-    - name: Install dependencies and static website
+    - name: Push to Github Pages branch
       run: |
         cd website/build/tech-portfolio
         touch .nojekyll
