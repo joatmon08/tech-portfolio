@@ -16,7 +16,8 @@ cd /gh-pages
 git init
 git config --local user.email "action@github.com"
 git config --local user.name "GitHub Action"
-git commit -a -m "Push to Github Pages"
+git add .
+git commit -m "Push to Github Pages"
 
 remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
