@@ -14,7 +14,11 @@ jobs:
       image: joatmon08/tech-portfolio
     steps:
     - uses: actions/checkout@v2
-    - name: Generate static HTML pages
+    - name: Install dependencies
       run: |
         cd website
+        yarn install
+    - name: Build static pages
+      run: |
         yarn build
+      
