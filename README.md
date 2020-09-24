@@ -47,7 +47,7 @@ Navigate to the Code page of your repo. Click on the "website" folder and open t
 
 Click on the pencil icon to edit this file.
 
-![siteConfig.js](asstes/siteconfig.png)
+![siteConfig.js](assets/siteconfig.png)
 
 There are four text fields and three social media links for you to update.
 
