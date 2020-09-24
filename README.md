@@ -118,6 +118,6 @@ Click on the "Update siteConfig.js" job. GitHub displays the actions it is takin
 
 When the "build" job is complete, navigate to your portfolio in another tab of your web browser. 
 
-Your URL is "https://<your github username>.github.io/tech-portfolio/" and this site displays your live portfolio.
+Your URL is "https://YOUR-GITHUB-USERNAME.github.io/tech-portfolio/" and this site displays your live portfolio.
 
 Congratulations! You completed this walkthrough and have a live technical portfolio! Any changes in your forked repo will trigger a new build and will update your site.
