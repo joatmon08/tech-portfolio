@@ -17,7 +17,7 @@ This repo contains all of the necessary files to deploy your technical portfolio
 
 Navigate to Settings in your forked repo.
 
-![Settings](assets/fork.png)
+![Settings](assets/settings.png)
 
 In the Settings page, navigte to "Actions" and ensure “Enable local and third party Actions for this repository” is enabled.
 
