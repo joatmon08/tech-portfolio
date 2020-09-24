@@ -3,153 +3,127 @@
 This repository allows you to create your own technical portfolio page! You are welcome to extend it for other uses, such as blogs or documentation.
 
 ## Tutorial prerequisites
-* [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* [Install Node.js](https://nodejs.org/en/)
-    * If you have `brew` installed, use the commandline to install with: `brew install node`
-* **Optional** [Install VSCode](https://code.visualstudio.com/Download)
+* [A GitHub Account](https://github.com/signup) 
 
-## Download the prebuilt repo and dependencies
+## Fork and configure the portfolio template repository
 
-Clone this repository to your local machine if you haven't already.
+Navigate to the [tech-portfolio](https://github.com/joatmon08/tech-portfolio) in your web browser.
 
-```shell
-$ git clone https://github.com/joatmon08/tech-portfolio.git
-```
+![fork]()
 
-This repo contains all of the necessary files to deploy your technical portfolio, but you must install a few dependencies locally to edit & test.
+This repo contains all of the necessary files to deploy your technical portfolio; however, you need to configure this repository with the necessary settings to make it a GitHub Pages site.
 
-Change into the `website` directory of the repo on your local machine.
+Navigate to Settings in your forked repo.
 
-```shell
-$ cd website
-```
+![Settings]()
 
-This folder contains the code and markdown for your portfolio. Test it locally by installing & starting `npm` to see the initial template you will be editing.
+In the Settings page, navigte to "Actions" and ensure “Enable local and third party Actions for this repository” is enabled.
 
+![Actions]()
 
-```shell
-$ npm install
-```
+On the Settings page, navigate to "Options" and scroll to the bottom to the "GitHub Pages" section.
 
-This command installs the necessary `npm` files locally and allows your machine to act as `localhost` for your website.
+![Options]
 
-To see the initial template, run the `start` command.
+Change the Source branch to "gh-pages" and keep the "/(root)" path and save this change.
 
-```
-$ npm start
-```
+![GitHubPages]
 
-You may receive a security warning that asks to allow npm to control your web browser. Allow this action.
+Go to the Actions page of the repostiory.
 
-![image of security warning](assets/npmsecuritywarning.png)
+![Actions Repo Page]()
 
-Your web browser will launch automatically and display the template. Navigate through this site to see what pages you have access to.
+This original repo has a workflow file already configured and GitHub disables these when you fork them by default. To enable this pre-configured workflow, select the "I understand my workflows, go ahead and enable them."
 
-![image of template site](assets/templatedemo.png)
+-> **Note** The Actions workflow will not do anything until you make additional changes.
 
-## Build your portfolio
+![Actions Warning]
 
-Open the repository demo folder in VSCode. This will help navigate through the site.
+Now you are ready to move into the repo and make this portfolio your own!
 
-### Edit the Site Config file
+## Edit your portfolio with your personal info
 
-Open the file `website/siteConfig.js` and edit with your name and information.
+Navigate to the Code page of your repo.
 
-```text
+![Code]()
+
+Click on the "website" folder and open the `siteConfig.js` file.
+
+![siteConfig.js]
+
+There are four text fields and three social media links for you to update.
+
+Click on the pencil icon to edit this file.
+
+### Update with your name and tagline
+
+Find the `title:` field and add your name. Remember to keep this field in single quotes.
+
+```js
 ...
- title: 'Your Name Here', // Title for your website.
-    tagline: 'Continuously improving, aspiring technologist.',
-    profilePhoto: 'img/profile.png',
-    url: 'https://joatmon08.github.io', // Your website URL
-    baseUrl: '/tech-portfolio/', // Base URL for your project */
-    // For github.io type URLs, you would set the url and baseUrl like:
-    //   url: 'https://facebook.github.io',
-    //   baseUrl: '/test-site/',
+title: 'YOUR NAME',
+```
 
-    // Used for publishing and more
-    projectName: 'tech-portfolio',
-    organizationName: 'joatmon08',
-    // For top-level user or org sites, the organization is still the same.
-    // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-    //   organizationName: 'JoelMarcey'
+The next line is `tagline:`. This field appears on your portfolio front page. Replace the placeholder with a description of you in three adjectives and the type of work you do or are looking for. Keep this field in single quotes as well.
+
+### Update your site URL and organization
+
+The next line is `url` and should be your GitHub username.
+
+```js
 ...
+url: 'https://YOUR-GITHUB-USER.github.io',
 ```
 
-Once you add your information, save your changes.
+Keep the `baseUrl` and `projectName` fields the same.
 
-### Edit your About page
+!> We are using a project GitHub page, not a global one associated with your username. If you do want your portfolio to be located at `your-user.github.io`, you must change the name of the repository.
 
-Navigate to the `docs` folder and edit the `about.md` page with your resume or educational background.
+Your `organizationName` is your GitHub username.
 
-```txt
-You can start your "About" page with an elevator pitch, one or two
-sentences about you! The rest of this page page can
-include a little bit about yourself. Some things you
-might include:
-
-1. Your current position
-1. Organizations you're involved with
-1. Your personal and professional values
-1. Hobbies or fun facts
-
-Write it in first (I) or third (Your Name Here) person. Optional sections
-listed below.
-
-## Current Role
-
-Grace Hopper Celebration Attendee
-
-## Recognition
-
-- 2020 Awesome Woman in Technology Award
-
-## Social Media
-
-- Twitter
-- LinkedIn
-- GitHub
+```js
+...
+organizationName: 'YOUR-GITHUB-USER',
 ```
 
-Save your changes.
+### Update your social media links
 
--> **Note:** Editing the Projects & Speaking pages in this tutorial is optional.
+Scroll to the bottom of the `siteConfig.js` file in the editor.
 
-### Edit your Projects page
+Update with your Twitter & GitHub usernames.
 
-Navigate to the `docs` folder and edit the `projects.md` page with any notable projects you would like to highlight.
+To find your LinkedIn public profile name, login to your LinkedIn account and view your profile.
 
-```txt
+On your profile page, click "Edit public profile & URL" from the upper right section of the page.
+
+![profile]()
+
+Under "Edit your custom URL" copy the text after the `https://www.linkedin.com/in/` portion of the URL. This is your LinkedIn username. 
+
+Paste it in your `linkedin:` setting.
+
+```js
+linkedin: 'YOUR-LINKEDIN-USER',
 ```
 
-Save your changes.
+Once you have updated all of the above fields, you are ready to commit these initial changes.
 
-### Edit your Speaking page
+Click the "Commit changes" button to save your changes.
 
-Navigate to the `docs` folder and edit the `speaking.md` page with any public speaking engagements you would like to highlight.
+## Review the Actions workflow
 
-```txt
-```
+To observe GitHub Actions building your page, go the "Actions" section of the repo.
 
-Save your changes.
+![workflowrunning]
 
-### Edit your social media links
+Click on the "Update siteConfig.js" job. GitHub displays the actions it is taking to build & publish your portfolio.
 
-Navigate to the `core` directory and open `footer.js` to edit the social media links for your site.
+![buildrunning]
 
-In this file, search(Command+F for Mac users or Ctrl+F for Windows users) for "linkedin.com" which should highlight one result.
+When the "build" job is complete, navigate to your portfolio in another tab of your web browser. 
 
-Add your LinkedIn profile address after the `/`. The address should look like `https://www.linkedin.com/YOUR-USER-NAME/`.
+Your URL is "https://<your github username>.github.io/tech-portfolio/" and this site displays your live portfolio.
+   
+![livesite]()
 
-Repeat these steps for GitHub & Twitter.
-
-Save this file.
-
-## View your personalized portfolio
-
-In your web browser, refresh the template page and you should see your edited information!
-
-![image of personalized portfolio]()
-
-## Push your portfolio to GitHub pages
-
-TODO
+Congratulations! You completed this walkthrough and have a live technical portfolio! Any changes in your forked repo will trigger a new build and will update your site.
