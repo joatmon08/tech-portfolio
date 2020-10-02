@@ -130,11 +130,11 @@ Take a screenshot of a project you recently worked on and save it to your local 
 
 Navigate to the `docs/assets/` folder of your technical portfolio and click the Add file drop-down and choose "Upload files"
 
-![docs/assets](addimages.png)
+![docs/assets](assets/addimage.png)
 
 Choose your file and commit this as a change to your repository.
 
-![upload image](upload.json)
+![upload image](assets/upload.json)
 
 In the `docs` directory of the repo, open the `projects.md` page and edit it.
 
@@ -142,7 +142,7 @@ Update this page with a short description of the project with a link to see it l
 
 To add the screenshot, you will use the Markdown syntax with alt text in `[]` and a relative link to the image in `()`.
 
-![show edit](editprojects.png)
+![show edit](assets/editprojects.png)
 
 For more information about Markdown, visit [this guide from GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
 
@@ -150,4 +150,4 @@ Commit your changes and navigate to Actions, where the new build job will run an
 
 To see this page, navigate to your site and click the `Projects` page.
 
-![show projects](projects.png)
+![show projects](assets/projects.png)
