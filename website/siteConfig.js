@@ -12,7 +12,7 @@
 const users = [];
 
 const siteConfig = {
-    title: 'Your Name Here', // Title for your website.
+    title: 'Jun Qu', // Title for your website.
     tagline: 'Continuously improving, aspiring technologist.',
     profilePhoto: 'img/profile.png',
     url: 'https://joatmon08.github.io', // Your website URL
@@ -69,7 +69,7 @@ const siteConfig = {
     socialMedia: {
         linkedin: '',
         twitter: '',
-        github: '',
+        github: 'https://github.com/junqu14',
     },
 
     // You may provide arbitrary config keys to be used as needed by your
