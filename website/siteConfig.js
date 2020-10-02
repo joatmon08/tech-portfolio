@@ -67,7 +67,7 @@ const siteConfig = {
     enableUpdateTime: true,
 
     socialMedia: {
-        linkedin: 'https://www.linkedin.com/in/hirva10/',
+        linkedin: 'hirva10',
         twitter: '',
         github: 'hirva10',
     },
