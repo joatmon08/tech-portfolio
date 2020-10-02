@@ -3,7 +3,7 @@
 This repository allows you to create your own technical portfolio page! You are welcome to extend it for other uses, such as blogs or documentation.
 
 ## Tutorial prerequisites
-* [A GitHub Account](https://github.com/signup) 
+* [A GitHub Account](https://github.com/signup)
 
 ## Fork and configure the portfolio template repository
 
@@ -15,17 +15,19 @@ Fork this repo to your GitHub user.
 
 This repo contains all of the necessary files to deploy your technical portfolio; however, you need to configure this repository with the necessary settings to make it a GitHub Pages site.
 
+**NOTE** Ensure you are on your forked repository by checking the upper left title of the repo. It should contain your GitHub user name.
+
 Navigate to Settings in your forked repo.
 
 ![Settings](assets/settings.png)
 
-In the Settings page, navigte to "Actions" and ensure “Enable local and third party Actions for this repository” is enabled.
+In the Settings page, navigate to "Actions" and ensure “Enable local and third-party Actions for this repository” is enabled.
 
 ![Actions](assets/actionspermissions.png)
 
 On the Settings page, navigate to "Options" and scroll to the bottom to the "GitHub Pages" section.
 
-Change the Source branch to "gh-pages" and keep the "/(root)" path and save this change.
+Change the Source branch to "gh-pages" and keep the "/(root)" path and save this change. This contains the GitHub Actions workflow.
 
 ![GitHubPages](assets/ghpages.png)
 
@@ -35,13 +37,13 @@ Go to the Actions page of the repostiory.
 
 This original repo has a workflow file already configured and GitHub disables these when you fork them by default. To enable this pre-configured workflow, select the "I understand my workflows, go ahead and enable them."
 
--> **Note** The Actions workflow will not do anything until you make additional changes.
+**Note** The Actions workflow will not do anything until you make additional changes.
 
 Now you are ready to move into the repo and make this portfolio your own!
 
 ## Edit your portfolio with your personal info
 
-Navigate to the Code page of your repo. Click on the "website" folder and open the `siteConfig.js` file.
+Navigate to the Code page of your repo and make sure you are on the `main` branch. Click on the "website" folder and open the `siteConfig.js` file.
 
 ![Code](assets/path.png)
 
@@ -94,7 +96,7 @@ On your profile page, click "Edit public profile & URL" from the upper right sec
 
 ![profile](assets/linkedin.png)
 
-Under "Edit your custom URL" copy the text after the `https://www.linkedin.com/in/` portion of the URL. This is your LinkedIn username. 
+Under "Edit your custom URL" copy the text after the `https://www.linkedin.com/in/` portion of the URL. This is your LinkedIn username.
 
 Paste it in your `linkedin:` setting.
 
@@ -116,7 +118,7 @@ Click on the "Update siteConfig.js" job. GitHub displays the actions it is takin
 
 ![buildrunning](assets/build2.png)
 
-When the "build" job is complete, navigate to your portfolio in another tab of your web browser. 
+When the "build" job is complete, navigate to your portfolio in another tab of your web browser.
 
 Your URL is "https://YOUR-GITHUB-USERNAME.github.io/tech-portfolio/" and this site displays your live portfolio.
 
