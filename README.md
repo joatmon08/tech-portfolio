@@ -134,7 +134,7 @@ Navigate to the `docs/assets/` folder of your technical portfolio and click the 
 
 Choose your file and commit this as a change to your repository.
 
-![upload image](assets/upload.json)
+![upload image](assets/upload.png)
 
 In the `docs` directory of the repo, open the `projects.md` page and edit it.
 
