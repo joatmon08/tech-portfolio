@@ -3,7 +3,7 @@
 This repository allows you to create your own technical portfolio page! You are welcome to extend it for other uses, such as blogs or documentation.
 
 ## Tutorial prerequisites
-* [A GitHub Account](https://github.com/signup) 
+* [A GitHub Account](https://github.com/signup)
 
 ## Fork and configure the portfolio template repository
 
@@ -94,7 +94,7 @@ On your profile page, click "Edit public profile & URL" from the upper right sec
 
 ![profile](assets/linkedin.png)
 
-Under "Edit your custom URL" copy the text after the `https://www.linkedin.com/in/` portion of the URL. This is your LinkedIn username. 
+Under "Edit your custom URL" copy the text after the `https://www.linkedin.com/in/` portion of the URL. This is your LinkedIn username.
 
 Paste it in your `linkedin:` setting.
 
@@ -116,7 +116,7 @@ Click on the "Update siteConfig.js" job. GitHub displays the actions it is takin
 
 ![buildrunning](assets/build2.png)
 
-When the "build" job is complete, navigate to your portfolio in another tab of your web browser. 
+When the "build" job is complete, navigate to your portfolio in another tab of your web browser.
 
 Your URL is "https://YOUR-GITHUB-USERNAME.github.io/tech-portfolio/" and this site displays your live portfolio.
 
@@ -131,6 +131,10 @@ Take a screenshot of a project you recently worked on and save it to your local 
 Navigate to the `docs/assets/` folder of your technical portfolio and click the Add file drop-down and choose "Upload files"
 
 ![docs/assets](addimages.png)
+
+Choose your file and commit this as a change to your repository.
+
+![upload image](upload.json)
 
 In the `docs` directory of the repo, open the `projects.md` page and edit it.
 
