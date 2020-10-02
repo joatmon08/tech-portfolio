@@ -25,8 +25,4 @@ Grace Hopper Celebration Attendee
 
 - 2020 Awesome Woman in Technology Award
 
-## Social Media
-
-- Twitter
-- LinkedIn
-- GitHub
+The Web Page is at here:https://junqu14.github.io/tech-portfolio/
