@@ -15,9 +15,7 @@ might include:
 
 Write it in first (I) or third (Your Name Here) person.
 
-:::tip
-Don't know what to write? Get a good friend to help! Set some time aside to soundboard.
-:::
+> Don't know what to write? Get a good friend to help! Set some time aside to soundboard.
 
 ## Current Role
 
