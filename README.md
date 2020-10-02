@@ -123,3 +123,33 @@ When the "build" job is complete, navigate to your portfolio in another tab of y
 Your URL is "https://YOUR-GITHUB-USERNAME.github.io/tech-portfolio/" and this site displays your live portfolio.
 
 Congratulations! You completed this walkthrough and have a live technical portfolio! Any changes in your forked repo will trigger a new build and will update your site.
+
+## Embed an image and update your Projects page
+
+Next, you will customize the `Projects` page of your technical portfolio with a project you want to highlight.
+
+Take a screenshot of a project you recently worked on and save it to your local machine.
+
+Navigate to the `docs/assets/` folder of your technical portfolio and click the Add file drop-down and choose "Upload files"
+
+![docs/assets](assets/addimage.png)
+
+Choose your file and commit this as a change to your repository.
+
+![upload image](assets/upload.png)
+
+In the `docs` directory of the repo, open the `projects.md` page and edit it.
+
+Update this page with a short description of the project with a link to see it live if available.
+
+To add the screenshot, you will use the Markdown syntax with alt text in `[]` and a relative link to the image in `()`.
+
+![show edit](assets/editprojects.png)
+
+For more information about Markdown, visit [this guide from GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
+
+Commit your changes and navigate to Actions, where the new build job will run and update your page.
+
+To see this page, navigate to your site and click the `Projects` page.
+
+![show projects](assets/projects.png)
