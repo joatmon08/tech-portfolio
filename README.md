@@ -230,7 +230,7 @@ into your tech portfolio if you want to manage your blogs yourself. To add a new
    with the year, month, and date. If your month or day is single digits, make sure you add
    the `0` in front of it (e.g., February is `02`). Keep the `-blog-post.md`.
 
-1. Copy the contents of `YEAR-MO-DA-blog-template.md`. Paste into your new blog post.
+1. Copy the contents of `2020-10-03-blog-template.md`. Paste into your new blog post.
 
 1. Change the title to one that you want to name your post.
 
