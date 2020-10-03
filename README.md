@@ -3,22 +3,27 @@
 This repository allows you to create your own technical portfolio page!
 You are welcome to extend it for other uses, such as blogs or documentation.
 
-> This repository was originally created for Grace Hopper Celebration 2020 and is constantly being updated based
-> on the feedback of the workshop participants. If you previously used this repository and want to apply your updates,
-> copy your changes and save them somewhere. [You can find the slides here](./assets/ghc.pdf).
-
 **If you have problems with this repository, please see our [frequently asked questions](./FAQ.md) page.**
+
+> This repository was originally created for Grace Hopper Celebration 2020 and is constantly being updated based
+> on the feedback of the workshop participants. 
+> You can find the slides from vGHC [here](./assets/ghc.pdf).
 
 * [Prerequisites](#prerequisites)
 * [Getting Started](#getting-started)
-    * [Edit your portfolio with your personal info](#edit-your-portfolio-with-your-personal-info)
+   * [Copying the template repository](#copying-the-template-repository)
+   * [Edit your portfolio with your personal info](#edit-your-portfolio-with-your-personal-info)
       * [Update with your name and tagline](#update-with-your-name-and-tagline)
       * [Update your site URL and organization](#update-your-site-url-and-organization)
-    * [Commit your changes](#commit-your-changes)
-    * [Review the Actions workflow](#review-the-actions-workflow)
-* [Updating Social Media Links](#updating-social-media-links)
+   * [Commit your changes](#commit-your-changes)
+   * [Review the Actions workflow](#review-the-actions-workflow)
+* [Update Your Profile Picture](#update-your-profile-picture)
+* [Update Your Social Media Links](#update-your-social-media-links)
+* [Update Your About Page](#update-your-about-page)
 * [Update Your Projects Page](#update-your-projects-page)
 * [Add a Blog](#add-a-blog)
+* [Delete Your Portfolio](#delete-your-portfolio)
+* [Apply Updates from This Template Repository to Your Portfolio](#apply-updates-from-this-template-repository-to-your-portfolio)
 
 ## Prerequisites
 * [A GitHub Account](https://github.com/signup)
@@ -26,6 +31,8 @@ You are welcome to extend it for other uses, such as blogs or documentation.
 * For more information about Markdown, visit [this guide from GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
 
 ## Getting Started
+
+### Copying the template repository
 
 You'll need to copy this repository to your Github username and enable a few settings.
 
@@ -116,8 +123,24 @@ Your URL is "https://YOUR-GITHUB-USERNAME.github.io/tech-portfolio/" and this si
 
 Congratulations! You completed this walkthrough and have a live technical portfolio! Any changes in your forked repo will trigger a new build and will update your site.
 
+## Update Your Profile Picture
 
-## Updating Social Media Links
+Follow these instructions to update your profile picture on the
+home page.
+
+1. Save the photo you want to use for your profile and name the photo `profile.png`.
+
+1. Navigate to the `website/static/img` folder of your technical portfolio.
+
+1. Click the Add file drop-down and choose "Upload files".
+   ![website/static/img](assets/profileadd.png)
+
+1. Choose your file called `profile.png` and commit this as a change to your repository.
+
+1. Check your live website. The home page should have your photo.
+
+
+## Update Your Social Media Links
 
 1. Scroll to the bottom of the `website/siteConfig.js` file in the editor.
 
@@ -217,3 +240,16 @@ into your tech portfolio if you want to manage your blogs yourself. To add a new
 
 1. To see this page, navigate to your site and click the `Blogs` page.
    ![show blogs](assets/blog.png)
+
+## Delete Your Portfolio
+
+1. Navigate to Settings in your forked repo.
+   ![Settings](assets/settings.png)
+
+1. Scroll down to the bottom of the page until you see the **Danger Zone**.
+   ![Danger zone](assets/dangerzone.png)
+
+1. Click "Delete this Repository" and follow the prompts to remove the repository.
+   ![Delete](assets/delete.png)
+
+## Apply Updates from This Template Repository to Your Portfolio
