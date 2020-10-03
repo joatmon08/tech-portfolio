@@ -5,7 +5,7 @@ You are welcome to extend it for other uses, such as blogs or documentation.
 
 > This repository was originally created for Grace Hopper Celebration 2020 and is constantly being updated based
 > on the feedback of the workshop participants. If you previously used this repository and want to apply your updates,
-> copy your changes and save them somewhere.
+> copy your changes and save them somewhere. [You can find the slides here](./assets/ghc.pdf).
 
 **If you have problems with this repository, please see our [frequently asked questions](./FAQ.md) page.**
 
