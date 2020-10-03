@@ -253,3 +253,37 @@ into your tech portfolio if you want to manage your blogs yourself. To add a new
    ![Delete](assets/delete.png)
 
 ## Apply Updates from This Template Repository to Your Portfolio
+
+Let's say you want to include the updates we made for the social media links into
+your portfolio. At the time, we didn't add dynamic creation of social media icons and
+you want to include your YouTube channel. You can update your portfolio to take advantage
+of template updates we make.
+
+1. Go to _your_ forked repository. You'll see at the top a box that says how commits different
+   your repository is from our template repository.
+   ![Commit difference](assets/diff.png)
+
+1. Click the "Compare" button.
+   ![Compare fork with template repository](assets/compare.png)
+
+1. When you click compare, it might show "no differences" because GitHub compares the
+   fork to the base. You want to compare the base to the fork! Click "switching the base"
+   to reverse the comparison and compare the base to the fork.
+   ![Switch bases](assets/switchbase.png)
+
+1. You should see the base repository as _your_ portfolio and the head repository as the template.
+   ![Head and base repositories](assets/base.png)
+
+1. Click "Create Pull Request".
+   ![Create Pull Request](assets/pr.png)
+
+1. In the pull request dialog, name the pull request something descriptive like "updating my repo to match template".
+   Then, click "Create Pull Request".
+   ![Create the Pull Request](assets/createpr.png)
+
+1. Click "Merge Pull Request" and click "Confirm Merge".
+   ![Commit difference](assets/merge.png)
+
+1. Your pull request should merge successfully. If you have conflicts, you will have to resolve
+   them through the GitHub UI.
+   ![Successful merge](assets/merged.png)
