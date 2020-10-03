@@ -17,7 +17,8 @@ You are welcome to extend it for other uses, such as blogs or documentation.
     * [Commit your changes](#commit-your-changes)
     * [Review the Actions workflow](#review-the-actions-workflow)
 * [Updating Social Media Links](#updating-social-media-links)
-* [Update your Projects Page](#update-your-projects-page)
+* [Update Your Projects Page](#update-your-projects-page)
+* [Add a Blog](#add-a-blog)
 
 ## Prerequisites
 * [A GitHub Account](https://github.com/signup)
@@ -160,7 +161,18 @@ Congratulations! You completed this walkthrough and have a live technical portfo
 If our list doesn't include a social media icon you want, feel free to open a Github issue and tell us which one you're
 looking for!
 
-## Update your Projects Page
+## Update Your About Page
+
+You can customize the `About` page of your technical portfolio with some information about you.
+
+1. In the `docs` directory of the repo, open the `about.md` page and edit it.
+
+1. Update this page with a little bit about yourself!
+
+1. To see this page, navigate to your site and click the `About` page.
+   ![show projects](assets/about.png)
+
+## Update Your Projects Page
 
 You can customize the `Projects` page of your technical portfolio with a project you want to highlight.
 
@@ -183,3 +195,25 @@ You can customize the `Projects` page of your technical portfolio with a project
 
 1. To see this page, navigate to your site and click the `Projects` page.
    ![show projects](assets/projects.png)
+
+## Add a Blog
+
+Usually, it is easier to use a blogging platform to write a blog. However, we added this
+into your tech portfolio if you want to manage your blogs yourself. To add a new post...
+
+1. In the `website` directory of the repo, find the `blog` folder.
+
+1. Create a new file called `<YEAR>-<MM>-<DD>-blog-post.md`. Make sure you name it
+   with the year, month, and date. If your month or day is single digits, make sure you add
+   the `0` in front of it (e.g., February is `02`). Keep the `-blog-post.md`.
+
+1. Copy the contents of `YEAR-MO-DA-blog-template.md`. Paste into your new blog post.
+
+1. Change the title to one that you want to name your post.
+
+1. Update the body of the post with some content.
+
+1. Commit your changes and navigate to Actions, where the new build job will run and add your new blog post.
+
+1. To see this page, navigate to your site and click the `Blogs` page.
+   ![show blogs](assets/blog.png)
