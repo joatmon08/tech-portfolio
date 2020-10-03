@@ -12,4 +12,4 @@
 * **What if I don't see a social media profile listed and I want to add it?** Feel free to open a GitHub
   issue and let us know!
 
-* **How do I add my Facebook username to the icons at the bottom?** See [Updating Social Media Links]((./README.md#updating-social-media-links))
+* **How do I add my Facebook username to the icons at the bottom?** See [Updating Social Media Links](./README.md#updating-social-media-links)
