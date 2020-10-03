@@ -6,6 +6,7 @@
  */
 
 const React = require('react');
+const { baseUrl, socialMedia } = require('../siteConfig');
 
 class Footer extends React.Component {
         docUrl(doc) {
@@ -16,20 +17,21 @@ class Footer extends React.Component {
   }
 
   render() {
+    let socialMedia = this.props.config.socialMedia;
     return (
       <footer className="nav-footer" id="footer">
         <section className="social">
-          <a href={"https://www.linkedin.com/in/" + this.props.config.socialMedia.linkedin} target="_blank" className="social">
-            <img alt="LinkedIn" src={this.props.config.baseUrl + "img/linkedin.svg"}></img>
-          </a>
-          <a href={"https://twitter.com/" + this.props.config.socialMedia.twitter} target="_blank" className="social">
-            <img alt="Twitter" src={this.props.config.baseUrl + "img/twitter.svg"}></img>
-          </a>
-          <a href={"https://github.com/" + this.props.config.socialMedia.github} target="_blank" className="social">
-            <img alt="GitHub" src={this.props.config.baseUrl + "img/github.svg"}></img>
-          </a>
+          {
+            Object.keys(socialMedia).map((mediaType) => {
+              return (
+                <a href={socialMedia[mediaType]} target="_blank" className="social">
+                  <img alt={mediaType} src={baseUrl + "img/" + mediaType + ".svg"}></img>
+                </a>
+              )
+            })
+          }
         </section>
-        <section className="copyright">{this.props.config.copyright}. Created with Docusaurus.</section>
+        <section className="copyright">{this.props.config.copyright} {this.props.config.title}. Created with Docusaurus.</section>
       </footer>
     );
   }

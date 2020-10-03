@@ -48,7 +48,7 @@ const siteConfig = {
     },
 
     // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-    copyright: `Copyright © ${new Date().getFullYear()} Your Name Here`,
+    copyright: `Copyright © ${new Date().getFullYear()}`,
 
     highlight: {
         // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -66,15 +66,20 @@ const siteConfig = {
     // Show documentation's last update time.
     enableUpdateTime: true,
 
+    /* The social media here is listed at the bottom of the page with icons.
+    Add your social media username to the end of the social media URLs.
+    If you want to add a social media icon, delete the two // before the line
+    If you want to remove a social media icon, you can add the two // before the line
+    or delete the line. */
     socialMedia: {
-        linkedin: '',
-        twitter: '',
-        github: '',
+        linkedin: 'https://www.linkedin.com/in/',
+        twitter: 'https://twitter.com/',
+        github: 'https://github.com/',
+        //facebook: 'https://www.facebook.com/',
+        //instagram: 'https://www.instagram.com/',
+        //youtube: 'https://www.youtube.com/',
+        //twitch: 'https://www.twitch.tv/'
     },
-
-    // You may provide arbitrary config keys to be used as needed by your
-    // template. For example, if you need your repo's URL...
-    // repoUrl: 'https://github.com/facebook/test-site',
 };
 
 module.exports = siteConfig;
