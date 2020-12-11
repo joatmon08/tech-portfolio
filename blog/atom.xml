@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://joatmon08.github.io/tech-portfolio/blog</id>
+    <title>Your Name Here Blog</title>
+    <updated>2020-10-03T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://joatmon08.github.io/tech-portfolio/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Your Name Here news and events.</subtitle>
+    <logo>https://joatmon08.github.io/tech-portfolio/undefined</logo>
+    <rights>Copyright © 2020</rights>
+    <entry>
+        <title type="html"><![CDATA[Add a new post title]]></title>
+        <id>https://joatmon08.github.io/tech-portfolio/blog/2020/10/03/blog-template.html</id>
+        <link href="https://joatmon08.github.io/tech-portfolio/blog/2020/10/03/blog-template.html"/>
+        <updated>2020-10-03T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Add text for a new blog post.</p> ]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vGHC 2020]]></title>
+        <id>https://joatmon08.github.io/tech-portfolio/blog/2020/10/02/blog-post.html</id>
+        <link href="https://joatmon08.github.io/tech-portfolio/blog/2020/10/02/blog-post.html"/>
+        <updated>2020-10-02T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>I learned how to create my technical portfolio at Grace Hopper Celebration 2020!</p> ]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+</feed>
