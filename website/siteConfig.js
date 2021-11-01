@@ -12,10 +12,10 @@
 const users = [];
 
 const siteConfig = {
-    title: 'Your Name Here', // Title for your website.
-    tagline: 'Continuously improving, aspiring technologist.',
+    title: 'Michael Fields', // Title for your website.
+    tagline: 'Programming GOAT, Aspiring software engineer, and amazing.',
     profilePhoto: 'img/profile.png',
-    url: 'https://joatmon08.github.io', // Your website URL
+    url: 'https://mjfields-java.github.io', // Your website URL
     baseUrl: '/tech-portfolio/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
     //   url: 'https://facebook.github.io',
@@ -23,7 +23,7 @@ const siteConfig = {
 
     // Used for publishing and more
     projectName: 'tech-portfolio',
-    organizationName: 'joatmon08',
+    organizationName: 'mjfields-java',
     // For top-level user or org sites, the organization is still the same.
     // e.g., for the https://JoelMarcey.github.io site, it would be set like...
     //   organizationName: 'JoelMarcey'
@@ -72,9 +72,9 @@ const siteConfig = {
     If you want to remove a social media icon, you can add the two // before the line
     or delete the line. */
     socialMedia: {
-        linkedin: 'https://www.linkedin.com/in/',
+        linkedin: 'https://www.linkedin.com/in/michael-fields-445127184/',
         twitter: 'https://twitter.com/',
-        github: 'https://github.com/',
+        github: 'https://github.com/mjfields-java/',
         //facebook: 'https://www.facebook.com/',
         //instagram: 'https://www.instagram.com/',
         //youtube: 'https://www.youtube.com/',
