@@ -1,6 +1,6 @@
 ---
 id: about
-title: About
+title: Michael Fields
 ---
 
 You can start your "About" page with an elevator pitch, one or two
@@ -15,12 +15,12 @@ might include:
 
 Write it in first (I) or third (Your Name Here) person.
 
-> Don't know what to write? Get a good friend to help! Set some time aside to soundboard.
+> I'm the greatest programmer to have touched the earth. I've once coded 3000 lines of code in under 10 minutes. I was so good bill gates was jealous, therefore I was hired on a 5 year 700 million dollar contract. I turned it down for wake tech.... lol(kidding off course)
 
 ## Current Role
 
-Grace Hopper Celebration Attendee
+Student at wake tech
 
 ## Recognition
 
-- 2020 Awesome Woman in Technology Award
+- 2019 greatest human on earth award
